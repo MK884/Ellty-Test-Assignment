@@ -6,7 +6,7 @@ const CheckOptions = ({ label, isChecked, onClick }) => {
     <div className="options" onClick={onClick}>
       <span>{label}</span>
       {/* making checkbox readonly to avoid double triggering */}
-      <input type="checkbox" checked={isChecked} readOnly />
+      <input type="checkbox" className="checkbox"checked={isChecked} readOnly />
     </div>
   );
 };

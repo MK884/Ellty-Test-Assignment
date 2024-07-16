@@ -3,8 +3,8 @@ import "../styles/button.css";
 
 const Button = ({ text }) => {
   return (
-    <div className="btn-frame">
-      <button>{text}</button>
+    <div className="button-frame">
+      <button className="button">{text}</button>
     </div>
   );
 };
