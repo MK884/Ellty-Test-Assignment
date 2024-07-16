@@ -1,0 +1,11 @@
+.divider {
+    width: 100%;
+    
+    padding: 10px 15px 10px 15px;
+  }
+  .divider > div {
+    width: 100%;
+    border: 0 solid rgba(205, 205, 205, 1);
+    border-bottom-width: 0.7px;
+  
+  }
