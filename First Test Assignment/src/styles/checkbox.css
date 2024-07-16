@@ -26,13 +26,13 @@
   transition: background-color 0.2s, border-color 0.2s;
 }
 .options:hover > input[type="checkbox"] {
-  background-image: url("../public/gray-check.svg");
+  background-image: url("/gray-check.svg");
   border-color: #bdbdbd;
 }
 input[type="checkbox"]:checked {
   background-color: #2469f6;
   border: none;
-  background-image: url("../public/white-check.svg");
+  background-image: url("/white-check.svg");
 }
 .options:hover > input[type="checkbox"]:checked {
   background-color: #5087f8;
